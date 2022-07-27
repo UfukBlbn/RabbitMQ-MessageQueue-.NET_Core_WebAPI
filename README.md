@@ -31,11 +31,13 @@
 
 **Technologies:** .NET 6 / RabbitMQ / Docker
 
+![Logo](https://mennankose.com/content/images/2019/08/asp-net-core-logo-1.png)
+
 ![Logo](https://placona.co.uk/images/2012/07/RabbitMQLogo.png)
 
 ![Logo](https://blog.knoldus.com/wp-content/uploads/2017/12/docker_facebook_share.png)
 
-![Logo](https://mennankose.com/content/images/2019/08/asp-net-core-logo-1.png)
+
 
     
 ## Project Images
