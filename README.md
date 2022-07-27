@@ -31,12 +31,9 @@
 
 **Technologies:** .NET 6 / RabbitMQ / Docker
 
- 
-
-  
-
-
 ![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/RabbitMQ_logo.svg/2560px-RabbitMQ_logo.svg.png)
+![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/1280px-Docker_%28container_engine%29_logo.svg.png)
+![Logo](https://mennankose.com/content/images/2019/08/asp-net-core-logo-1.png)
 
     
 ## Project Images
