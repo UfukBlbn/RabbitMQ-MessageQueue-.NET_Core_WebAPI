@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iO4c88WhTbVMS0xYvZmxZUVdRlfgvBiym4gu7A23yco=",
+  "Source": "RabbitMq_NetCoreWebAPI",
+  "BasePath": "_content/RabbitMq_NetCoreWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

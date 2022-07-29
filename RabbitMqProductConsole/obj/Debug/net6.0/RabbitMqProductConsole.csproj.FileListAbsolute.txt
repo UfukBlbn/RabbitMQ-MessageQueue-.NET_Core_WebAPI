@@ -1,0 +1,17 @@
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\bin\Debug\net6.0\RabbitMqProductConsole.exe
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\bin\Debug\net6.0\RabbitMqProductConsole.deps.json
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\bin\Debug\net6.0\RabbitMqProductConsole.runtimeconfig.json
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\bin\Debug\net6.0\RabbitMqProductConsole.dll
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\bin\Debug\net6.0\RabbitMqProductConsole.pdb
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\obj\Debug\net6.0\RabbitMqProductConsole.csproj.AssemblyReference.cache
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\obj\Debug\net6.0\RabbitMqProductConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\obj\Debug\net6.0\RabbitMqProductConsole.AssemblyInfoInputs.cache
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\obj\Debug\net6.0\RabbitMqProductConsole.AssemblyInfo.cs
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\obj\Debug\net6.0\RabbitMqProductConsole.csproj.CoreCompileInputs.cache
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\obj\Debug\net6.0\RabbitMqProductConsole.csproj.CopyComplete
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\obj\Debug\net6.0\RabbitMqProductConsole.dll
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\obj\Debug\net6.0\refint\RabbitMqProductConsole.dll
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\obj\Debug\net6.0\RabbitMqProductConsole.pdb
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\obj\Debug\net6.0\RabbitMqProductConsole.genruntimeconfig.cache
+C:\Users\ufukb\source\repos\RabbitMq_NetCoreWebAPI\RabbitMqProductConsole\obj\Debug\net6.0\ref\RabbitMqProductConsole.dll
