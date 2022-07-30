@@ -61,4 +61,5 @@
 ![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/UfukBlbn/RabbitMQ-MessageQueue-.NET_Core_WebAPI/main/ProjectImages/consoleapp.png)
 
 - Listener Result (Array Format)
+- 
 ![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/UfukBlbn/RabbitMQ-MessageQueue-.NET_Core_WebAPI/main/ProjectImages/listener_array.png)
