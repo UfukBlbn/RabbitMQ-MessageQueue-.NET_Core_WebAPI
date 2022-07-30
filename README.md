@@ -13,7 +13,7 @@
 - As you can see in the diagram above, there is many producer who sends a message to the RabbitMQ server. The server will store that message inside the queue in a FIFO manner
 - Once the producer has sent the message to the queue, there may be multiple consumers that want the message produced by the producer. In that case, consumers subscribe to the message and get that message from the Message Queue as you see in the above diagram.
 - In this project, I created a scenario for the situation that I just mentioned.
-- 
+
 `Progress`
 - A selection is made according to the type among the mail templates saved in the database beforehand. In addition, the type of customer to which the mail will be sent is also selected. 
 - And the necessary queue is created for process tracking.
