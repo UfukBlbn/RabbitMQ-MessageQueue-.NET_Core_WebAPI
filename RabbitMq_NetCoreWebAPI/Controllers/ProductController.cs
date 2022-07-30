@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿ using Microsoft.AspNetCore.Mvc;
 using RabbitMq_NetCoreWebAPI.Models;
 using RabbitMq_NetCoreWebAPI.RabbitMq;
 using RabbitMq_NetCoreWebAPI.Services;

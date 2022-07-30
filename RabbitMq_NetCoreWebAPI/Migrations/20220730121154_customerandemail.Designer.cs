@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RabbitMq_NetCoreWebAPI.Data;
 
@@ -11,9 +12,10 @@ using RabbitMq_NetCoreWebAPI.Data;
 namespace RabbitMq_NetCoreWebAPI.Migrations
 {
     [DbContext(typeof(DbContextClass))]
-    partial class DbContextClassModelSnapshot : ModelSnapshot
+    [Migration("20220730121154_customerandemail")]
+    partial class customerandemail
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -38,7 +40,7 @@ namespace RabbitMq_NetCoreWebAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("CustomerType")
+                    b.Property<int>("CustomerTypes")
                         .HasColumnType("int");
 
                     b.Property<bool>("IsAccepSms")
@@ -78,12 +80,17 @@ namespace RabbitMq_NetCoreWebAPI.Migrations
                     b.Property<int>("EmailType")
                         .HasColumnType("int");
 
+                    b.Property<int>("ProductInfoProductId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("SendDate")
                         .HasColumnType("datetime2");
 
                     b.HasKey("EmailId");
 
                     b.HasIndex("CustomerId");
+
+                    b.HasIndex("ProductInfoProductId");
 
                     b.ToTable("Emails");
                 });
@@ -124,6 +131,14 @@ namespace RabbitMq_NetCoreWebAPI.Migrations
                     b.HasOne("RabbitMq_NetCoreWebAPI.Models.Customer", null)
                         .WithMany("RecievedEmails")
                         .HasForeignKey("CustomerId");
+
+                    b.HasOne("RabbitMq_NetCoreWebAPI.Models.Product", "ProductInfo")
+                        .WithMany()
+                        .HasForeignKey("ProductInfoProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ProductInfo");
                 });
 
             modelBuilder.Entity("RabbitMq_NetCoreWebAPI.Models.Customer", b =>

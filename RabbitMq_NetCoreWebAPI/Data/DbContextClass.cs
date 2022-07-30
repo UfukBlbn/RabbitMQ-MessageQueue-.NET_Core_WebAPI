@@ -19,5 +19,16 @@ namespace RabbitMq_NetCoreWebAPI.Data
             get;
             set;
         }
+        public DbSet<Email> Emails
+        {
+            get;
+            set;
+        }
+        public DbSet<Customer> Customers
+        {
+            get;
+            set;
+        }
+   
     }
 }

@@ -5,6 +5,9 @@ using RabbitMq_NetCoreWebAPI.Services;
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICustomerService, CustomerService>();
+builder.Services.AddScoped<IEmailSenderService, EmailSenderService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddDbContext<DbContextClass>();
 builder.Services.AddScoped<IRabbitMqProducer, RabbitMqProducer>();
 builder.Services.AddControllers();
