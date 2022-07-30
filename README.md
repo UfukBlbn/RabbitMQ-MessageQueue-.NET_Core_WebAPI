@@ -45,6 +45,20 @@
 - Main Structure of Project
 ![Uygulama Ekran Görüntüsü](https://www.cloudamqp.com/img/blog/exchanges-topic-fanout-direct.png)
 
+- Swagger UI 
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/UfukBlbn/RabbitMQ-MessageQueue-.NET_Core_WebAPI/main/ProjectImages/swagger_u%C4%B1.png)
 
+- Docker Desktop (Running)
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/UfukBlbn/RabbitMQ-MessageQueue-.NET_Core_WebAPI/main/ProjectImages/dockerdesk.png)
 
+- RabbitMQ UI
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/UfukBlbn/RabbitMQ-MessageQueue-.NET_Core_WebAPI/main/ProjectImages/rabbit_u%C4%B1.png)
 
+- RabbitMQ Queue UI
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/UfukBlbn/RabbitMQ-MessageQueue-.NET_Core_WebAPI/main/ProjectImages/queue_email.png)
+
+- Listener Result (Console App)
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/UfukBlbn/RabbitMQ-MessageQueue-.NET_Core_WebAPI/main/ProjectImages/consoleapp.png)
+
+- Listener Result (Array Format)
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/UfukBlbn/RabbitMQ-MessageQueue-.NET_Core_WebAPI/main/ProjectImages/listener_array.png)
