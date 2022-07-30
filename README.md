@@ -10,12 +10,17 @@
 
 ![Uygulama Ekran Görüntüsü]( https://i.imgur.com/GzNKKPy.png)
 
-- As you can see in the diagram above, there is one producer who sends a message to the RabbitMQ server. The server will store that message inside the queue in a FIFO manner
+- As you can see in the diagram above, there is many producer who sends a message to the RabbitMQ server. The server will store that message inside the queue in a FIFO manner
 - Once the producer has sent the message to the queue, there may be multiple consumers that want the message produced by the producer. In that case, consumers subscribe to the message and get that message from the Message Queue as you see in the above diagram.
+- In this project, I created a scenario for the situation that I just mentioned.
+- 
+`Progress`
+- A selection is made according to the type among the mail templates saved in the database beforehand. In addition, the type of customer to which the mail will be sent is also selected. 
+- And the necessary queue is created for process tracking.
 
 `Error Handling with RabbitMQ`
-- In this case, there may be a chance of some technical issue occurring in the payment service. If the user did not receive the payment receipt due to this, the user will be impacted and connected with the support team ti try to learn the status of the order.
-- In these scenarios, the RabbitMQ plays an essential role to process messages in the message queue. So, when the consumer gets online, he will receive that order receipt message from the message queue, produced by the producer without impacting the web application.
+- In this case, there may be a chance of some technical issue occurring in the mail service. If the user did not receive the e-mail due to this, the user will be impacted and connected with the support team to try to learn the status of the order (it can be a different situation).
+- In these scenarios, the RabbitMQ plays an essential role to process messages in the message queue. So, when the consumer gets online, he will receive that email  from the message queue, produced by the producer without impacting the web application.
 # RabbitMQ Benefits
 
 `Hight Availability`
@@ -26,7 +31,6 @@
 
 - When we use RabbitMQ, at that time our application does not depend on only one server and virtual machine to process a request. If our server is stopped at that time, RabbitMQ will transfer our application load to another server that has the same services running in the background.
 
-  
 ## Using Technologies
 
 **Technologies:** .NET 6 / RabbitMQ / Docker
@@ -42,8 +46,6 @@
     
 ## Project Images
 
-- Main Structure of Project
-![Uygulama Ekran Görüntüsü](https://www.cloudamqp.com/img/blog/exchanges-topic-fanout-direct.png)
 
 - Swagger UI 
 ![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/UfukBlbn/RabbitMQ-MessageQueue-.NET_Core_WebAPI/main/ProjectImages/swagger_u%C4%B1.png)
