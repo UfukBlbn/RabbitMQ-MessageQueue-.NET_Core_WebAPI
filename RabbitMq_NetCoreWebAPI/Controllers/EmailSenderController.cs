@@ -35,7 +35,7 @@ namespace RabbitMq_NetCoreWebAPI.Controllers
                
             }
 
-            //send the inserted product data to the queue and consumer will listening this data from queue
+            //send the inserted email data to the queue and consumer will listening this data from queue
             _rabbitMqProducer.SendProductMessage(sendedCustomers);
             return BaseResponse<SendEmailResponse>.returnSuccess(null);
 
